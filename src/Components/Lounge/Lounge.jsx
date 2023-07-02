@@ -1,8 +1,4 @@
 import React, {useEffect} from 'react'
-
-// Imported Images =======>
-import imageGrid from '../../assets/images-Grid2.png'
-// import AOS ============================>
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 const Lounge = () => {  
@@ -13,7 +9,6 @@ const Lounge = () => {
     <div className='lounge container section'>
          <div className="sectionContainer grid">
            <div data-aos="fade-left" data-aos-duration="2500" className="imgDiv">
-             <img src={imageGrid} alt="" />
            </div>
            <div className="textDiv">
             <h2 data-aos="fade-down" data-aos-duration="2500">Unaccompanied Minor Lounge</h2>
